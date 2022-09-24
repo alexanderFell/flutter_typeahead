@@ -518,7 +518,7 @@ class CupertinoTypeAheadField<T> extends StatefulWidget {
       this.keepSuggestionsOnSuggestionSelected: false,
       this.autoFlipDirection: false,
       this.minCharsForSuggestions: 0,
-      this.hideKeyboardOnDrag})
+      this.hideKeyboardOnDrag: false})
       : assert(animationStart >= 0.0 && animationStart <= 1.0),
         assert(
             direction == AxisDirection.down || direction == AxisDirection.up),
